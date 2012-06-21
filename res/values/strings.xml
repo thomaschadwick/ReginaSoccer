@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Regina Soccer</string>
+    <string name="Refresh">Refresh</string>
+    <string name="manage_league">League:</string>
+    <string name="manage_division">Division:</string>
+    <string name="manage_team">Team:</string>
+    
+    <string name="manage_league_prompt">Choose league...</string>
+    <string-array name="league_array">
+        <item>Co-ed</item>
+        <item>Men\'s</item>
+        <item>Women\'s</item>
+    </string-array>
+    
+    <string name="manage_division_prompt">Choose division...</string>
+    <string-array name="division_array">
+
+    </string-array>
+    
+    <string name="manage_team_prompt">Choose team...</string>
+    <string-array name="team_array">
+
+    </string-array>
+    
+</resources>

@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<RelativeLayout 
+	xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent" 
+    android:layout_height="fill_parent" 
+    android:layout_gravity="center_horizontal" 
+    android:gravity="center_horizontal">
+		
+	<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+	    android:orientation="vertical"
+	    android:layout_width="fill_parent"
+	    android:layout_height="fill_parent"
+	    android:layout_above="@+id/refresh">
+		<TextView 
+			android:id="@+id/date" 
+			android:layout_marginTop="14dip"
+			android:layout_marginLeft="5dip"
+			android:layout_width="wrap_content" 
+			android:layout_height="wrap_content" 
+			android:singleLine="true"     
+			style="@style/Text.Date" 
+			android:hint="Date"/>
+		
+		<TextView 
+			android:id="@+id/status" 
+			android:layout_marginTop="8dip"
+			android:layout_marginLeft="12dip"
+			android:layout_width="wrap_content" 
+			android:layout_height="wrap_content"
+			style="@style/Text.Status" 
+			android:hint="Status"/>
+	</LinearLayout>
+	<Button 
+		android:gravity="center" 
+		android:text="@string/Refresh" 
+		android:layout_height="wrap_content"
+		android:id="@+id/refresh" 
+		android:layout_width="wrap_content" 
+		android:layout_alignParentBottom="true" 
+		android:layout_centerHorizontal="true"></Button>
+</RelativeLayout>
